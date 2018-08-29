@@ -8,11 +8,12 @@
 - property 属性
 
 **学习线路**
+
 1.基础编程->2.编程进阶->3.类库使用->4.框架使用->5.领域建模->6.设计模式->7.架构设计->8.平台设计
 
 **技术网站**
 - 入门培训：http://imooc.com, http://w3school.com.cn
-- 进阶与社区：http://cnblogs.com，http://csdn.net
+- 进阶与社区：http://cnblogs.com, http://csdn.net
 - 架构设计：http://www.infoq.com/cn/
 - 开源与工具：http://oschina.net
 - 项目管理：http://gitee.com
@@ -45,5 +46,5 @@ http://www.cnblogs.com/zxj159/p/3505457.html
 场景1：转账功能，2个人相互转账，一个记录执行减法后持久化，另一个记录执行加法后持久化，这个时候必须2个记录执行都没有问题才能算完成执行。如果中间出现错误，就要回滚，所以要用到事务处理。当然不用模式的化，也可以在 数据提交之前做一个事务处理。设计模式的意义在于，代码复用，规范化。
 
 
-暂时
+.
 
