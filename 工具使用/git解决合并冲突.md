@@ -1,0 +1,1 @@
+﻿**﻿git解决合并冲突（代码托管github,gitee等)**分支A提交合并请求到分支B，有冲突git fetch code 拉取远程仓库的其他分支代码（我拉代码是remote add code所以这里是code,可以用git remote查看）git checkout 分支A 切换到分支Agit pull code 分支A 拉取分支A代码git checkout 分支B 切换到分支Bgit pull code 分支B 拉取分支B代码git merge --no-ff 分支A 将分支A合并到分支Bgit status 查看冲突代码eclipse解决冲突代码git push code 分支B 提交解决冲突后的代码
